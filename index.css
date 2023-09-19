@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+main{
+    max-width: 100%;
+    margin-top: 1rem;
+}
+header{
+    max-width: 100%;
+    height: 40px;
+    display: flex;
+}
+header > .art {
+    width: 15%;
+
+}
+header > .link{
+    width: 60%;
+
+}
+header > .lock{
+    width: 25%;
+}
+header > .art > .logo > span {
+    color: greenyellow;
+}
+header >  .art > .logo {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+header > .link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header > .lock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header > .link > a{
+    text-decoration: none;
+
+}
+header > .link > a:hover{
+background-color: greenyellow;
+padding: 5px;
+border-radius: 5px;
+}
+header > .lock > .login{
+    background-color: greenyellow;
+    padding: 5px 15px ;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.first > .journey{
+    max-width: 100%;
+    height: 200px;
+    
+    display: flex;
+
+}
+.journey > .through{
+    width: 45%;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.journey > .through > span{
+    font-style: italic;
+    padding: 15px;
+    
+}
+.journey > .collide{
+    width: 20%;
+    font-size: 1.2rem;
+    margin-top: 10rem;
+
+}
+.journey > .walls{
+    width: 35%;
+    font-size: 1.2rem;
+    margin-top: 10rem;
+}
+.line {
+    max-width: 100%;
+    height: 20px;
+    display: flex;
+
+}
+.line > .icons{
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 6rem;
+}
+.line > .icons > .fab{
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    /* padding: 5px 8px; */
+    
+}
+.line > .layi{
+    width: 50%;
+}
+.line > .layi > hr{
+    width: 370px;
+    height: 10px solid black;
+    margin-left: 18rem;
+    font-weight: bold;
+}
+.second{
+    max-width: 100%;
+    height: 400px;
+    /* background-image: url(./media/image/lamp.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    
+
+}
+.second > .brush {
+   padding: 2rem;
+   text-align: right;
+}
+.second > .brush > h3{
+    font-size: 1.5rem;
+}
+.second > .brush > p{
+    font-size: 1.2rem;
+}
+.second > .brush > .fas{
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px 8px;
+
+}
+
+.dote{
+    max-width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.dote >  .dark > .fas{
+    color: green;
+}
+.dote > .fas{
+    color: greenyellow;
+}
+.power{
+    max-width: 100%;
+    height: 30px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.you{
+    max-width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.you > .love {
+    width: 30%;
+    height: 60%;
+
+}
+.you > .love > label{
+    font-size: 2rem;
+    padding: 20px 20px;
+}
+.you > .whether{
+    width: 45%;
+    height: 60%;
+}
+.you > .whether > p{
+    line-height: 1.5;
+}
+.whether > .join{
+    width: 60px;
+    height: 20px;
+    background-color: greenyellow;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+.space{
+   max-width:100%;
+    height: 30px;
+}
+.three{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+.three > .what{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+}
+.three > .what > .wedo{
+    width: 70%;
+    
+}
+
+.three > .what > .wedo > label{
+    font-size: 2rem;
+}
+.three > .what > .wedo > p{
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.three > .image{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    gap: 10px;
+}
+.three > .image > .brown{
+    width:34% ;
+    height: 100%;
+    background-image: url(./media/image/pilo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three > .image > .green{
+    width: 30%;
+    height: 100%;
+    background-color: greenyellow;
+}
+.mission{
+    max-width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission > p{
+    width: 90%;
+}
+.four{
+    max-width: 100%;
+    height: 500px;
+}
+.featured{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.featured > p{
+    font-size: 2.5rem;
+    letter-spacing:0.1cm;
+}
+.featured > .arrow > .fas{
+    border-radius: 50%;
+    background-color: greenyellow;
+    padding: 5px 8px;
+    
+}
+.artists{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.artists > img{
+    width: 19%;
+    height: 250px;
+}
+.five{
+    max-width: 100%;
+    padding-left: 6rem;
+
+}
+.five > .corner{
+    padding: 1rem 0;
+}
+.five > .explore{
+    padding: 1rem 0;
+    display: flex;
+    gap: 80%;
+}
+.five > .modern{
+    padding: 1rem 0;
+}
+.five > .classic{
+    padding: 1rem 0;
+}
+.testimonials{
+    max-width: 100%;
+    height: 500px;
+}
+.testimonials > h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+.testimonials > .pics{
+    width: 80%;
+    height: 70%;
+    background-image: url(./media/image/dany\ 3.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+    margin-top: 2.5rem;
+}
+
+.ready{
+    max-width: 100%;
+    height: 200px;
+
+}
+.ready > .part{
+    width: 100%;
+    height: 80%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ready > .part > p{
+    width: 40%;
+    font-size: 2rem;
+    letter-spacing: 0.1cm;
+}
+
+.ready > .part > .get{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.last{
+    max-width: 100%;
+    height: 220px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem ;
+}
+
+.last > .artgram {
+    font-size: 40px;
+    
+
+}
+.artgram > span{
+    color: greenyellow;
+}
+.last > .maen > hr{
+    width: 200px;
+}
+
+.last > .maen > p{
+    padding: 8px 0px;
+}
+.end{
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 70%;
+    
+}
+.end > .icons{
+    gap: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.end > .icons > .fab{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    font-size: 14px;
+    gap: 1rem;
+}
+
+

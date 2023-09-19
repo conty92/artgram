@@ -1,0 +1,196 @@
+@media screen and (max-width:700px) {
+    
+    header{
+        max-width: 100%;
+        display: flex;
+    }
+    .first{
+        max-width: 100%;
+    }
+    .first > .journey{
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    
+    }
+    .journey > .through{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        
+
+    }
+    .journey > .collide{
+        width: 100%;
+        font-size: 1rem;
+        margin: 10px;
+        text-align: center;
+    
+    }
+    .journey > .walls{
+        width: 100%;
+        font-size: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+    .line > .icons{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-evenly
+    
+    }
+    .line > .icons > .fab{
+
+    }
+    .second{
+        max-width: 100%;
+        height: 200px;
+    }
+    .you{
+        max-width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    .you > .love {
+        width: 80%;
+        height: 20%;
+    }
+    .you > .whether{
+        width: 80%;
+        height: 60%;
+    }
+    .power > p:first-child , p:nth-child(2){
+        display: none;
+    }
+    .three{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .three > .what{
+        width: 100%;
+        height: 20%;
+    }
+
+    body > main > div.three > div.what > div > p{
+        display: block;
+    }
+    .three > .image{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .three > .image > .brown{
+        width:80% ;
+        height: 33%;
+    }
+    .three > .image > .green{
+        width: 80%;
+        height: 33%;
+    }
+    .mission{
+        max-width: 100%;
+        height: 250px;
+    } 
+    .mission > p{
+        width: 80%;
+    }
+    .four{
+        max-width: 100%;
+        height: 400px;
+    }.featured{
+        width: 100%;
+        height: 20%;
+        padding: 1rem;
+    }
+    .featured > p{
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+    .featured > .arrow{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .five{
+        max-width: 100%;
+        padding-left: 1rem;
+    }
+    .five > .explore{
+        /* width: 100%; */
+        /* display: flex; */
+        /* gap: 0; */
+        /* justify-content: space-evenly; */
+    }
+    .five > .explore > p:nth-child(){
+        /* margin-right: 50%; */
+    }
+    .testimonials{
+        max-width: 100%;
+        height: 300px;
+    }
+    .testimonials > .pics{
+        width: 80%;
+        height: 200px;
+    }
+    .ready{
+        max-width: 100%;
+        height: 110px;
+    }
+    .ready > .part{
+        width: 100%;
+        height: 80%;
+    }
+    .ready > .part > p{
+        width: 40%; 
+        letter-spacing: 0;
+        font-size: 1.5rem;
+    }
+    .ready > .part > .get{
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .last{
+        max-width: 100%;
+        height: 270px;
+        display: flex;
+    }
+    .last > .artgram {
+        font-size: 1rem;
+    }
+    .last > .maen > hr{
+        width: 90px;
+    }
+    .last > .maen > p{
+        padding: 8px 0px;
+        font-size: 10px;
+    }
+    .end{
+        max-width: 100%;
+        height: 50px;
+        display: flex;
+        background-color: antiquewhite;
+        align-items: center;
+        gap: 2rem;
+        padding-left: 70%;
+        
+    }
+    
+
+    
+
+}
+
+
+
+
